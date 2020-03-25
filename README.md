@@ -9,12 +9,10 @@ This app can use an image classifier to detect any number of target labels, then
 This app can run on either a desktop/laptop development machine or on an edge device such as a Jetson Nano, Dragonboard, or Raspberry Pi that has docker installed. See the above install instruction link for more details.
 
 ## Configuration
-This app makes use of key-values in the `alwaysai.app.json` file for set up and variable assignments:
+This app makes use of key-values in the `config.json` file for set up and variable assignments:
 
 Key | Value Type | Description
 -----| ---------- | ----------
-scripts | dictionary | Required by alwaysAI's CLI to specify which file to run within a docker container
-models | dictionary | Required by alwaysAI's CLI to determine which CV models to download and make available to the app's docker container
 found_folder | string | Optional location within the app's root folder to put images that have target objects in them. Default is `output_images/found`
 empty_folder | string | Optional location within the app's root folder to put images that had no detected target objects. Default is `output_images/not_found`
 source_folder | string | Optional location within the app's root folder to process images from. Default is `source_images`
