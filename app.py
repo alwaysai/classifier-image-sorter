@@ -23,7 +23,7 @@ present. However, not all models can make use of it!
 """
 
 # Static keys for extracting data from config JSON file
-CONFIG_FILE = 'alwaysai.app.json'
+CONFIG_FILE = 'config.json'
 CLASSIFIER = 'classifier'
 FOUND_FOLDER = 'found_folder'
 EMPTY_FOLDER = 'empty_folder'
