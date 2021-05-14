@@ -8,10 +8,10 @@ import shutil
 Use image classification to sort a batch of images. The
 classification labels can be changed by selecting different models.
 Different images can be used by updating the files in the *source_images/*
-directory. 
+directory.
 
 NOTE: When developing onto a remote device, removing
-images in the local *source_images/* directory on your dev machine won't remove images 
+images in the local *source_images/* directory on your dev machine won't remove images
 from the device. They can be removed using the `aai app shell` command and
 deleting them from the remote's *source_images/* directory.
 
@@ -37,7 +37,7 @@ def load_json(filepath):
     '''
     Convenience to check and load a JSON file
     '''
-    if os.path.exists(filepath) == False:
+    if os.path.exists(filepath) is False:
         raise Exception(
             'app.py: load_json: File at {} does not exist'.format(filepath))
     with open(filepath) as data:
