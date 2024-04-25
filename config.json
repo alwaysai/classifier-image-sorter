@@ -1,6 +1,6 @@
 {
     "classifier": {
-        "model_id": "alwaysai/squeezenet_v1.1",
+        "model_id": "alwaysai/squeezenet_v1_1",
         "confidence_level": 0.2,
         "target_labels": [
             "cock",

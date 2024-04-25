@@ -3,6 +3,6 @@
     "start": "python app.py"
   },
   "models": {
-    "alwaysai/squeezenet_v1.1": 1
+    "alwaysai/squeezenet_v1_1": 1
   }
 }
