@@ -16,7 +16,7 @@ from the device. They can be removed using the `aai app shell` command and
 deleting them from the remote's *source_images/* directory.
 
 To change the computer vision model, follow this guide:
-https://dashboard.alwaysai.co/docs/application_development/changing_the_model.html
+https://docs.alwaysai.co/application_development/application_configuration.html#change-the-computer-vision-model
 
 NOTE: This app will auto-detect and use an Intel Movidius Neural Compute stick if
 present. However, not all models can make use of it!
